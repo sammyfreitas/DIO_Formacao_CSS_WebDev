@@ -1,0 +1,363 @@
+/*------------------CONTAINER TOP--------------*/
+.containertopo {
+    /* Menu */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 24px;
+    gap: 32px;
+    position: absolute;
+    width: 1440px;
+    height: 56px;
+    left: 0px;
+    top: 0px;   
+}
+
+.menu{
+/* menu */
+background-image: url(../images/menu.png);
+position: absolute;
+width: 24px;
+height: 24px;
+left: 24px;
+top: 16px;
+}
+
+.youtube{
+/* youtube logo */
+background-image: url(../images/youtube.png);
+position: absolute;
+width: 90px;
+height: 20px;
+left: 80px;
+top: 18px;
+
+}
+
+.menuvector{
+position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 75%;
+bottom: 25%;
+border: 2px solid #000000;
+}
+
+.box{    
+display: flex;
+flex-direction: row-reverse;
+}
+
+.video{
+background-image: url(../images/video.png);
+width: 24px;
+height: 24px;
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 10px;
+}
+  
+.bell{
+background-image: url(../images/bell.png);   
+width: 24px;
+height: 24px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 10px;
+}
+
+.foto{
+ background-image: url(../images/foto.png); 
+ margin: 10px;
+ width: 24px;
+ height: 24px;
+ flex: none;
+ order: 0;
+ flex-grow: 0;
+}
+
+.item1{
+  /* Rectangle 1 */
+box-sizing: border-box;
+position: absolute;
+width: 348px;
+height: 40px;
+left: 526px;
+top: 8px;
+background: #FFFFFF;
+border: 1px solid #CCCCCC;    
+}
+
+.item2{
+/* Rectangle 2 */
+box-sizing: border-box;
+position: absolute;
+width: 57px;
+height: 40px;
+left: 873px;
+top: 8px;
+background: #F8F8F8;
+border: 1px solid #CCCCCC;
+
+}
+.search{
+background-image: url(../images/search.png);
+position: absolute;
+width: 24px;
+height: 24px;
+left: 887px;
+top: 16px;
+}
+          /*------------------CONTAINER CENTER--------------*/
+.containercenter{  
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+position: absolute;
+width: 952px;
+height: 746px;
+left: 75px;
+top: 84px;
+    
+    }
+.h1{
+/* Semana Front-end | Dia 01: Construindo uma Landing Page no Mundo Invertido com HTML e CSS */
+width: 871px;
+height: 23px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+color: #000000;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.image2{ 
+/* image 2 */
+width: 952px;
+height: 537px;
+background-image: url(..//images/image2.png);
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+/*------------------CONTAINER VIDEO ACTIONS--------------*/
+.videoactions{
+  
+/* Auto layout */
+background: rgb(255, 255, 255);
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+gap: 42px;
+width: 952px;
+height: 42px;
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+.fotodio{
+/* Channel Avatar */
+width: 42px;
+height: 42px;
+background: url(../images/Channel\ Avatar.png);
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.numinscritos{
+/* DIO 83,3 mil inscritos */
+
+width: 106px;
+height: 32px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 13.5px;
+line-height: 16px;
+color: #000000;
+flex: none;
+order:1;
+flex-grow: 0;
+}
+
+.botao{
+    background-image: url(../images/Subscribe\ Button.png);
+/* Subscribe Button */
+width: 159px;
+height: 40px;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.like{
+
+/* Like */
+width: 25px;
+height: 25px;
+flex: none;
+order: 2;
+flex-grow: 0;
+background-image: url(../images/thumbs-up.png);
+}
+
+.liketext{
+/* 2 mil */
+position: absolute;
+width: 30px;
+height: 16px;
+left: 465px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 13.5px;
+line-height: 16px;
+color: #000000;
+}
+
+.dislike{
+/* Deslike */
+width: 100px;
+height: 24px;
+background-image: url(../images/thumbs-down.png);
+position: absolute;
+width: 24px;
+height: 24px;
+left: 508px;
+
+}
+
+.disliketext{
+/* Não gostei */
+position: absolute;
+width: 80px;
+height: 16px;
+left: 540px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+color: #000000;
+
+}
+
+.share{
+/* Share */
+position: absolute;
+width: 24px;
+height: 24px;
+left: 650px;
+background-image: url(../images/share-2.png);
+
+}
+
+.sharetext{
+/* Compartilhar */
+position: absolute;
+width: 24px;
+height: 16px;
+left: 680px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+color: #020202;
+}
+
+.download{
+/* Download */
+position: absolute;
+width: 24px;
+height: 24px;
+left: 807px;
+background-image: url(../images/download.png);
+
+}
+
+.downloadtext{
+/* Download */
+position: absolute;
+width: 24px;
+height: px;
+left: 842px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+color: #000000;
+
+
+}
+.visutext{
+/* 28.418 visualizações Transmitido ao vivo em 23 ago. de 2022 */
+width: 591px;
+height: 18px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+color: #000000;
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+}
+
+.descritext{
+/* Inicie uma aventura imersiva no mundo do Front-end com HTML e CSS. Para isso, criaremos uma landing page com a temática da série Stranger Things, a qual contará com a implementação de um theme switcher (light e dark) para explorarmos os mistérios do mundo invertido. */
+width: 510px;
+height: 64px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: #515151;
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+}
+
+/*------------------CONTAINER RIGHT VIDEOS COLUMN--------------*/
+.sidebar{
+    position: absolute;
+    width: 160px;
+    height: 938px;
+    left: 1052px;
+    top: 84px;   
+height: 100%;
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+
+}
+.itens{
+width: 20%;
+height: 200px;
+
+}
